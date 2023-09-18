@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-image: url('backround.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+}
+h1 {
+	font-size: 4rem;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 3.5rem;
+	margin-bottom: 20px;
+}
+h3 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+p {
+	font-size: 1.75rem;
+	margin-bottom: 50px;
+}
+
+form input {
+	margin: 5px auto;
+    display: block;
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+	
+}
+
+#success-message {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 20px;
+	display: none;
+}
+
+.circle {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.circle img {
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+::-webkit-input-placeholder {
+	text-align: center;
+}
+.submit-button {
+	background-color: #489cac; /* Green background color */
+	color: white; /* Text color */
+	border: none; /* No border */
+	padding: 20px 50px; /* Padding around the text */
+	font-size: 25px; /* Text size */
+	cursor: pointer; /* Cursor on hover */
+	border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* Style for the submit button on hover */
+.submit-button:hover {
+	background-color: #489cac; 
+  }
+  
+  /* Style for the submit button when pressed */
+.submit-button:active {
+	background-color: #295962; /* Even darker green background color */
+}
+.whatsapp-icon {
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px;
+	margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+
+.whatsapp-icon-container {
+	text-align: center;
+	margin-top: 20px; /* Adjust the top margin to create space */
+}
